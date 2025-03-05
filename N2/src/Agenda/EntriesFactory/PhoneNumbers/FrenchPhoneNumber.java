@@ -5,6 +5,7 @@ import java.util.InputMismatchException;
 public class FrenchPhoneNumber extends PhoneNumber {
     {
         setCountryCode("+33");
+        setCountryName("");
     }
 
     @Override

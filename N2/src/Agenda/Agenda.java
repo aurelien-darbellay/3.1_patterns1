@@ -1,7 +1,13 @@
 package Agenda;
 
+import Agenda.EntriesFactory.Adresses.FrenchAddressCreator;
+import Agenda.EntriesFactory.Adresses.SpanishAddressCreator;
+import Agenda.EntriesFactory.PhoneNumbers.FrenchPhoneNumberCreator;
+import Agenda.EntriesFactory.PhoneNumbers.SpanishPhoneNumberCreator;
+
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Agenda {
 

@@ -4,7 +4,7 @@ import Agenda.AgendaEntry;
 
 import java.util.InputMismatchException;
 
-abstract class PhoneNumber implements AgendaEntry {
+public abstract class PhoneNumber implements AgendaEntry {
     private String personeName;
     private String countryName;
     private String countryCode;
@@ -31,7 +31,7 @@ abstract class PhoneNumber implements AgendaEntry {
     }
 
     public void setCountryCode(String countryCode) {
-        if (countryCode.length() == 2) this.countryCode = countryCode;
+        if (countryCode.length() == 3) this.countryCode = countryCode;
         else {
             throw new InputMismatchException("Incorrect country code format");
         }
